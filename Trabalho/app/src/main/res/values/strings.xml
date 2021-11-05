@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">e-shelf</string>
+    <string name="bemvindo">Seja bem-vindo ao e-shelf</string>
+    <string name="usuario">Usuário:</string>
+    <string name="senha">Senha:</string>
+    <string name="esquecisenha">Esqueci minha senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="meuregistro">Não tenho registro</string>
+    <string name="userexample">usuario@email.com</string>
 </resources>
