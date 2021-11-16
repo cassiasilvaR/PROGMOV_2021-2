@@ -1,5 +1,5 @@
 Aluna: Cássia Claudiane Silva da Rosa
-Visão geral do software "OpenBook" O objetivo dessa ferramenta é gerenciar uma livraria. 
+Visão geral do software "e-SHELF" O objetivo dessa ferramenta é gerenciar uma livraria. 
 Nele, será possível realizar a compra de um livro ou empréstimo deste, assim como registrar um novo livro, funcionário e cliente. 
 Todos esses objetos: livro, funcionário e cliente, terão variáveis próprias identificatórias, como ISBN, código de funcionário e código de cliente. 
 O usuário funcionário é a pessoa que trabalha na livraria e por isso terá mais funções no aplicativo, ele terá como papel de registrar um livro ou 
