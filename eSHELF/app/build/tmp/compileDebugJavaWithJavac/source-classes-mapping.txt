@@ -1,0 +1,4 @@
+com/example/eshelf/BuildConfig.java
+ com.example.eshelf.BuildConfig
+com/example/eshelf/MainActivity.java
+ com.example.eshelf.MainActivity

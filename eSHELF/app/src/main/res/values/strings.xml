@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">e-SHELF</string>
+    <string name="boas_vindas">Seja bem vindo ao e-SHELF</string>
+    <string name="user_email">Digite o seu email</string>
+    <string name="user_password">Digite a sua senha</string>
+    <string name="icon">Ícone</string>
+</resources>
