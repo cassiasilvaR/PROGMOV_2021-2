@@ -1,4 +1,25 @@
+com/example/eshelf/databinding/ContentCadastrarBinding.java
+ com.example.eshelf.databinding.ContentCadastrarBinding
+com/example/eshelf/databinding/FragmentFirstBinding.java
+ com.example.eshelf.databinding.FragmentFirstBinding
 com/example/eshelf/BuildConfig.java
  com.example.eshelf.BuildConfig
+com/example/eshelf/databinding/ActivityMainBinding.java
+ com.example.eshelf.databinding.ActivityMainBinding
+com/example/eshelf/FirstFragment.java
+ com.example.eshelf.FirstFragment
+ com.example.eshelf.FirstFragment$1
+com/example/eshelf/SecondFragment.java
+ com.example.eshelf.SecondFragment
+ com.example.eshelf.SecondFragment$1
+com/example/eshelf/databinding/ActivityCadastrarBinding.java
+ com.example.eshelf.databinding.ActivityCadastrarBinding
+com/example/eshelf/databinding/FragmentSecondBinding.java
+ com.example.eshelf.databinding.FragmentSecondBinding
+com/example/eshelf/DBHelper.java
+ com.example.eshelf.DBHelper
+com/example/eshelf/Cadastrar.java
+ com.example.eshelf.Cadastrar
 com/example/eshelf/MainActivity.java
  com.example.eshelf.MainActivity
+ com.example.eshelf.MainActivity$1

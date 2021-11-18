@@ -3,5 +3,43 @@
     <string name="boas_vindas">Seja bem vindo ao e-SHELF</string>
     <string name="user_email">Digite o seu email</string>
     <string name="user_password">Digite a sua senha</string>
+    <string name="repetir_senha">Repita a sua senha</string>
     <string name="icon">Ícone</string>
+    <string name="entrar">Acessar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="sem_cadastro">Criar nova conta</string>
+    <string name="esqueci_senha">Esqueceu a senha?</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="nome_completo_hint">NOME COMPLETO</string>
+    <string name="diga_vc">Diga quem você é!</string>
+    <string name="email">Email</string>
+    <string name="email_hint">EMAIL</string>
+    <string name="senha">Senha</string>
+    <string name="senha_hint">SENHA</string>
+    <string name="celular">Celular</string>
+    <string name="celular_hint">CELULAR</string>
+    <string name="cpf">CPF</string>
+    <string name="cep">CEP</string>
+    <string name="data_nasc">Data Nasc.</string>
+    <string name="data_nasc_hint">DATA DE NASCIMENTO</string>
+    <string name="bairro">Bairro</string>
+    <string name="bairro_hint">BAIRRO</string>
+    <string name="cidade">Cidade</string>
+    <string name="cidade_hint">CIDADE</string>
+    <string name="uf">UF</string>
+    <string name="numero_casa">Número</string>
+    <string name="numero_hint">NÚMERO</string>
+    <string name="rua">Rua</string>
+    <string name="rua_hint">RUA</string>
+    <string name="complemento">Complemento</string>
+    <string name="complemento_hint">COMPLEMENTO</string>
+    <string name="title_activity_cadastrar">Cadastrar</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cadastrar.xml",
+        "source": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\src\\main\\res\\layout\\activity_cadastrar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_cadastrar.xml",
+        "source": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\src\\main\\res\\layout\\content_cadastrar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    }
+]

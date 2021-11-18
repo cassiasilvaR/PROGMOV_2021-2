@@ -20,6 +20,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.ESHELF" >
         <activity
+            android:name="com.example.eshelf.Cadastrar"
+            android:exported="true"
+            android:label="@string/title_activity_cadastrar"
+            android:theme="@style/Theme.ESHELF.NoActionBar" />
+        <activity
             android:name="com.example.eshelf.MainActivity"
             android:exported="true" >
             <intent-filter>
