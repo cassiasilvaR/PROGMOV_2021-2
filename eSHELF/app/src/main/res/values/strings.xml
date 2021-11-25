@@ -2,11 +2,16 @@
     <string name="app_name">e-SHELF</string>
     <string name="boas_vindas">Seja bem vindo ao e-SHELF</string>
     <string name="user_email">Digite o seu email</string>
+    <string name="confirmar_email">Confirme seu email</string>
     <string name="user_password">Digite a sua senha</string>
     <string name="repetir_senha">Repita a sua senha</string>
     <string name="icon">Ícone</string>
     <string name="entrar">Acessar</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="shop">Shop</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="cancelar">Cancelar</string>
     <string name="sem_cadastro">Criar nova conta</string>
     <string name="esqueci_senha">Esqueceu a senha?</string>
     <string name="nome_completo">Nome Completo</string>
@@ -42,4 +47,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_iniciar">iniciar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

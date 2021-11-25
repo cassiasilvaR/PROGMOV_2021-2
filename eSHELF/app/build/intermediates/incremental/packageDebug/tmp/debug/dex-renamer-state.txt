@@ -1,10 +1,10 @@
-#Wed Nov 17 21:17:39 AMT 2021
-path.3=3/classes.dex
-path.2=4/classes.dex
+#Wed Nov 24 21:27:20 AMT 2021
+path.3=4/classes.dex
+path.2=3/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=C\:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.2=C\:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.3=C\:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.2=C\:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 base.1=C\:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=C\:\\Users\\cassi\\OneDrive\\Documentos\\PROGMOV_2021-2\\eSHELF\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex

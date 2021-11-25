@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ESHELF">
         <activity
+            android:name=".iniciar"
+            android:exported="true"
+            android:label="@string/title_activity_iniciar"
+            android:theme="@style/Theme.ESHELF.NoActionBar" />
+        <activity
             android:name=".Cadastrar"
             android:exported="true"
             android:label="@string/title_activity_cadastrar"

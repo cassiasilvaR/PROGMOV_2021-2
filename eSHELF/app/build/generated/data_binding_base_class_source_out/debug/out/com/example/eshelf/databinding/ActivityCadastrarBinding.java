@@ -21,6 +21,9 @@ public final class ActivityCadastrarBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final Button btnCancelar;
+
+  @NonNull
   public final Button btnRealizarCadastro;
 
   @NonNull
@@ -33,6 +36,9 @@ public final class ActivityCadastrarBinding implements ViewBinding {
   public final EditText edtEmailCadastro;
 
   @NonNull
+  public final EditText edtEmailConfirmar;
+
+  @NonNull
   public final EditText edtNomeCompleto;
 
   @NonNull
@@ -41,15 +47,18 @@ public final class ActivityCadastrarBinding implements ViewBinding {
   @NonNull
   public final EditText edtSenhaCadastroRepeat;
 
-  private ActivityCadastrarBinding(@NonNull ScrollView rootView,
+  private ActivityCadastrarBinding(@NonNull ScrollView rootView, @NonNull Button btnCancelar,
       @NonNull Button btnRealizarCadastro, @NonNull EditText edtCelular, @NonNull EditText edtCpf,
-      @NonNull EditText edtEmailCadastro, @NonNull EditText edtNomeCompleto,
-      @NonNull EditText edtSenhaCadastro, @NonNull EditText edtSenhaCadastroRepeat) {
+      @NonNull EditText edtEmailCadastro, @NonNull EditText edtEmailConfirmar,
+      @NonNull EditText edtNomeCompleto, @NonNull EditText edtSenhaCadastro,
+      @NonNull EditText edtSenhaCadastroRepeat) {
     this.rootView = rootView;
+    this.btnCancelar = btnCancelar;
     this.btnRealizarCadastro = btnRealizarCadastro;
     this.edtCelular = edtCelular;
     this.edtCpf = edtCpf;
     this.edtEmailCadastro = edtEmailCadastro;
+    this.edtEmailConfirmar = edtEmailConfirmar;
     this.edtNomeCompleto = edtNomeCompleto;
     this.edtSenhaCadastro = edtSenhaCadastro;
     this.edtSenhaCadastroRepeat = edtSenhaCadastroRepeat;
@@ -82,6 +91,12 @@ public final class ActivityCadastrarBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_cancelar;
+      Button btnCancelar = ViewBindings.findChildViewById(rootView, id);
+      if (btnCancelar == null) {
+        break missingId;
+      }
+
       id = R.id.btn_realizar_cadastro;
       Button btnRealizarCadastro = ViewBindings.findChildViewById(rootView, id);
       if (btnRealizarCadastro == null) {
@@ -106,6 +121,12 @@ public final class ActivityCadastrarBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.edt_email_confirmar;
+      EditText edtEmailConfirmar = ViewBindings.findChildViewById(rootView, id);
+      if (edtEmailConfirmar == null) {
+        break missingId;
+      }
+
       id = R.id.edt_nome_completo;
       EditText edtNomeCompleto = ViewBindings.findChildViewById(rootView, id);
       if (edtNomeCompleto == null) {
@@ -124,8 +145,9 @@ public final class ActivityCadastrarBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCadastrarBinding((ScrollView) rootView, btnRealizarCadastro, edtCelular,
-          edtCpf, edtEmailCadastro, edtNomeCompleto, edtSenhaCadastro, edtSenhaCadastroRepeat);
+      return new ActivityCadastrarBinding((ScrollView) rootView, btnCancelar, btnRealizarCadastro,
+          edtCelular, edtCpf, edtEmailCadastro, edtEmailConfirmar, edtNomeCompleto,
+          edtSenhaCadastro, edtSenhaCadastroRepeat);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

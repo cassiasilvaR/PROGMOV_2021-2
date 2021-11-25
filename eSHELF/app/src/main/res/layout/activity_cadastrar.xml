@@ -25,31 +25,6 @@
             android:textSize="30sp">
         </TextView>
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-condensed"
-            android:text="@string/nome_completo"
-            android:textColor="@color/dark_jungle_green"
-            android:textSize="22sp">
-        </TextView>
-
-        <EditText
-            android:id="@+id/edt_nome_completo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/custom_input"
-            android:hint="@string/nome_completo_hint"
-            android:importantForAutofill="no"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            tools:ignore="TextContrastCheck">
-        </EditText>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,6 +54,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
+            android:text="@string/nome_completo"
+            android:textColor="@color/dark_jungle_green"
+            android:textSize="22sp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edt_nome_completo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/nome_completo_hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            tools:ignore="TextContrastCheck">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
             android:layout_marginTop="10dp"
             android:text="@string/email"
             android:textColor="@color/dark_jungle_green"
@@ -92,6 +91,21 @@
             android:background="@drawable/custom_input"
             android:layout_marginTop="10dp"
             android:hint="@string/email_hint"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck">
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_email_confirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:layout_marginTop="10dp"
+            android:hint="@string/confirmar_email"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
@@ -165,14 +179,36 @@
             tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck">
         </EditText>
 
-        <Button
-            android:id="@+id/btn_realizar_cadastro"
-            android:layout_width="wrap_content"
+        <GridLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cadastrar"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="35dp">
-        </Button>
+            android:layout_marginLeft="30dp">
+
+            <Button
+                android:id="@+id/btn_realizar_cadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastrar"
+                android:onClick="cadastrar"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelar"
+                android:onClick="cancelar"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp">
+            </Button>
+
+        </GridLayout>
+
+
     </LinearLayout>
 </ScrollView>

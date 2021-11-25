@@ -1,25 +1,61 @@
+com/example/eshelf/databinding/FragmentSecond2Binding.java
+ com.example.eshelf.databinding.FragmentSecond2Binding
 com/example/eshelf/databinding/ContentCadastrarBinding.java
  com.example.eshelf.databinding.ContentCadastrarBinding
-com/example/eshelf/databinding/FragmentFirstBinding.java
- com.example.eshelf.databinding.FragmentFirstBinding
-com/example/eshelf/BuildConfig.java
- com.example.eshelf.BuildConfig
-com/example/eshelf/databinding/ActivityMainBinding.java
- com.example.eshelf.databinding.ActivityMainBinding
-com/example/eshelf/FirstFragment.java
- com.example.eshelf.FirstFragment
- com.example.eshelf.FirstFragment$1
+com/example/eshelf/MenuFragment.java
+ com.example.eshelf.MenuFragment
+com/example/eshelf/iniciar.java
+ com.example.eshelf.iniciar
+ com.example.eshelf.iniciar$1
+com/example/eshelf/Acao.java
+ com.example.eshelf.Acao
+com/example/eshelf/databinding/ActivityIniciarBinding.java
+ com.example.eshelf.databinding.ActivityIniciarBinding
+com/example/eshelf/MainActivity.java
+ com.example.eshelf.MainActivity
+com/example/eshelf/databinding/ContentIniciarBinding.java
+ com.example.eshelf.databinding.ContentIniciarBinding
+com/example/eshelf/ShopFragment.java
+ com.example.eshelf.ShopFragment
+com/example/eshelf/Endereco.java
+ com.example.eshelf.Endereco
+com/example/eshelf/databinding/FragmentShopBinding.java
+ com.example.eshelf.databinding.FragmentShopBinding
+com/example/eshelf/Cadastrar.java
+ com.example.eshelf.Cadastrar
+com/example/eshelf/databinding/FragmentSecondBinding.java
+ com.example.eshelf.databinding.FragmentSecondBinding
+com/example/eshelf/Usuario.java
+ com.example.eshelf.Usuario
 com/example/eshelf/SecondFragment.java
  com.example.eshelf.SecondFragment
  com.example.eshelf.SecondFragment$1
-com/example/eshelf/databinding/ActivityCadastrarBinding.java
- com.example.eshelf.databinding.ActivityCadastrarBinding
-com/example/eshelf/databinding/FragmentSecondBinding.java
- com.example.eshelf.databinding.FragmentSecondBinding
+com/example/eshelf/Second2Fragment.java
+ com.example.eshelf.Second2Fragment
+ com.example.eshelf.Second2Fragment$1
+com/example/eshelf/databinding/FragmentFirstBinding.java
+ com.example.eshelf.databinding.FragmentFirstBinding
+com/example/eshelf/databinding/FragmentHomeBinding.java
+ com.example.eshelf.databinding.FragmentHomeBinding
+com/example/eshelf/BuildConfig.java
+ com.example.eshelf.BuildConfig
+com/example/eshelf/Livro.java
+ com.example.eshelf.Livro
+com/example/eshelf/FirstFragment.java
+ com.example.eshelf.FirstFragment
+ com.example.eshelf.FirstFragment$1
+com/example/eshelf/databinding/ActivityMainBinding.java
+ com.example.eshelf.databinding.ActivityMainBinding
 com/example/eshelf/DBHelper.java
  com.example.eshelf.DBHelper
-com/example/eshelf/Cadastrar.java
- com.example.eshelf.Cadastrar
-com/example/eshelf/MainActivity.java
- com.example.eshelf.MainActivity
- com.example.eshelf.MainActivity$1
+com/example/eshelf/databinding/ActivityCadastrarBinding.java
+ com.example.eshelf.databinding.ActivityCadastrarBinding
+com/example/eshelf/databinding/FragmentMenuBinding.java
+ com.example.eshelf.databinding.FragmentMenuBinding
+com/example/eshelf/HomeFragment.java
+ com.example.eshelf.HomeFragment
+com/example/eshelf/databinding/FragmentFirst2Binding.java
+ com.example.eshelf.databinding.FragmentFirst2Binding
+com/example/eshelf/First2Fragment.java
+ com.example.eshelf.First2Fragment
+ com.example.eshelf.First2Fragment$1
